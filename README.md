@@ -7,7 +7,7 @@ The task was to implement a given website,to look exactly the same.
 by use of html and css.
 
 ## link to the site on github pages.
-lizgi.github.io/my-webpage/
+lizgi.github.io/my-streetfood-website/
 
 ## author 
 *Elizabeth Gikonyo*
