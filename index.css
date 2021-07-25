@@ -8,13 +8,7 @@
     padding-left: 0px;
     background-color: #e5e5e5;
 
-    .box {
-        padding: 50px;
-        margin: 45px;
-        height: 100px;
-        width: 200px;
-        border-radius: 0 0 40px 0;
-        background-color: white;
+
     }
     #burger{
         float:bottom;
