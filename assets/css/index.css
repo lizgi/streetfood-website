@@ -131,7 +131,6 @@ font-size: 17px;
     text-decoration: none;
   }
   .container-Eat {
-    border: 1px solid black;
     margin-left: 80px;
     margin-right: 35px;
     padding-right: 70px;
@@ -142,57 +141,108 @@ font-size: 17px;
     margin-right: 35px;
     padding-right: 70px;
     padding-left: 0px;
-    display: flex;}
-    .eat-together-section>img{
-      width: 100%;
-    }
-    
-    
-    
-
-
-.container-explore{
     display: flex;
-    border: 1px solid black;
-    margin-left: 80px;
-    margin-right: 35px;
-    padding-right: 70px;
-    text-align: center;
 }
-/*
- .box {
-    padding: 50px;
+.eat-together-section>img{
+  width: 70%;
+}
+.eat-together-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+  }
+  
+  .eat-together-text>h1{
+    text-align: center;
+    margin-left: 12rem;
+  }
+    
+  .explorebox {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  .container-explore>h1{
+    text-align: center
+  }
+ 
+  .box {
+    padding: 14px;
     margin: 45px;
-    height: 100px;
+    min-height: 100px;
     width: 200px;
     border-radius: 0 0 40px 0;
     background-color: white;
-    */
+    position: relative;
+  }
+  .box>img{
+    position: absolute;
+    bottom: -2rem;
+    left: -4.5rem;
+    height: 8rem;
+    width: 9rem;
+  }
+  
+  .box>h3{
+    text-align: left;
+  }
+  
+  .box>p{
+    text-align:center;
+    margin-left: 2rem;
+  }
+  /*styling  the Hot-deal Section*/
+  .container-deals{
+      margin-left: 80px;
+      margin-right: 35px;
+      padding-right: 70px;
+      padding-left: 0px;
+      background-color: #c9ecb5;
+  }
+  .hotdealbox>#juice{
+    position: relative;
+    bottom: 6rem;
+   
+  }
+  
+  .hotdealbox>#burger{
+    position: relative;
+    bottom: 6rem;
+    left: -16rem;
+    height: 15rem;
+  
+    
+  }
+  .hotdealbox>h2{
+    text-align: center;
+  }
+  .hotdeal-text{
+   float: right;
+   margin-left:40rem;
+   margin-top:9.5rem;
+   position: absolute;
+  
+  }
+  .hotdeal-text>p{
+    text-align: center;
+    padding-left: 0px;
+  }
+  /*styling  the Contact Section*/
+  .contactbox{
+      margin-left: 80px;
+      margin-right: 35px;
+      padding-right: 70px;
+      padding-left: 0px;
+      background-color: #fff5dd;
+      
+  }
 
-    .box {
-        padding: 14px;
-        margin: 45px;
-        text-align:center;
-        margin-left: 2rem;
-      }
-      .container-deals{
-        border: 1px solid black;
-        margin-left: 80px;
-        margin-right: 35px;
-        padding-right: 70px;
-      text-align: center
 
-    .hotdeal box{
-        display:flex;
-        align-items: center;
-          }
-
-       .hotdealbox>#burger{ 
-        position: relative;
-        bottom: 0rem;
-        left: -16rem;
-        height: 15rem;
-       }
 
        .contactbox{
         border: 1px solid black;
