@@ -241,24 +241,83 @@ font-size: 17px;
       background-color: #fff5dd;
       
   }
+}
+.contactbox>h1{
+  text-align: center;
+}
+.contactbox>p{
+  text-align: center;
 
-
-
-       .contactbox{
-        border: 1px solid black;
-        margin-left: 80px;
-        margin-right: 35px;
-        padding-right: 70px;
-    
-    }
-    .container-footer{
-        border: 1px solid black;
-        margin-top: 5%;
-        margin-left: 80px;
-        margin-right: 35px;
-        background-color: #f1faec;
+}
+.contactbox>form{
+  text-align:center;
+}
+input[type=text] {
+  width: 30%;
+  height: 2rem;
+  text-decoration: black;
+  color: black;
+  
+  border-radius: 10px;
+}
+#contact-button {
+    background-color: #6CB840;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 16px;
+    width:10%;
+    cursor: pointer;
+    margin-bottom: 12px;
       
-      }
-      .footer{
-        width: 100%;
-        display: flex;
+  
+  
+  }
+  .container-footer{
+    margin-top: 5%;
+    margin-left: 80px;
+    margin-right: 35px;
+    padding-right: 70px;
+    padding-left: 0px;
+    background-color: #f1faec;
+  
+  }
+  /*styling  the Footer Section*/
+  .footer{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    
+  }
+  .footer-left{
+    flex: 1px;
+    padding: 40px;
+  }
+  .footer-center{
+    flex: 5px;
+    padding: 60px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+  
+    border-left: 2.5px dashed #649549 ;
+  }
+  .footer-right{
+    flex: 1px;
+    padding: 60px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+  
+  }
+  #footer-button{
+    background-color: #6CB840;
+  
+  }
+
+
+      
